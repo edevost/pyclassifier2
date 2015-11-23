@@ -1,4 +1,3 @@
-==============
 pyclassifier2
 ==============
 Python classifier to analyse images and count objects based on background detection and subtraction.
@@ -20,9 +19,8 @@ Python installation
 Documenting installation from fresh manjaro linux installation.
 Date of system installation : <2015-06-25 Thu>
 
-================
 Needed libraries
-================
+-----------------
 - Open CV
 sudo pacman -Sy opencv
 - python-pyexiftool
