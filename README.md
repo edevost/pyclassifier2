@@ -61,3 +61,8 @@ To compile foreground_detection_code on manjaro/archlinux
 
 - cd cpplibs/foreground_estimation_code
 g++ -o ForegroundSegmentation main.cpp input_preprocessor.cpp -O2 -fopenmp -I/usr/include/opencv -I/usr/include/opencv -L/usr/lib64 -L/usr/lib -larmadillo -lopencv_core -lopencv_highgui -lopencv_imgproc
+
+Sofware utilization
+===================
+
+You first need to generate the masks with generatemasks.py. Once you have your masks, you can run foxcountRW.py on theses masks. See code for detailed documentation.
