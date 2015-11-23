@@ -1,7 +1,10 @@
-# pyclassifier2
+==============
+pyclassifier2
+==============
 Python classifier to analyse images and count objects based on background detection and subtraction.
 
-* Software structure
+Software structure
+===================
 This sofware consist of two main python components
 
 - generatemasks.py
