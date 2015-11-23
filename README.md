@@ -51,13 +51,13 @@ Needed libraries
 yaourt armadillo
 
 To compile background_estimation_code on manjaro/archlinux 
-============================================================
+------------------------------------------------------------
 
 - cd cpplibs/background_estimation_code
 g++ -L/usr/lib64 -L/usr/lib -I/usr/include -I/usr/include/opencv  main.cpp SequentialBge.cpp SequentialBgeParams.cpp -O3   -larmadillo -lopencv_core -lopencv_highgui -fopenmp -o "EstimateBackground"
 
 To compile foreground_detection_code on manjaro/archlinux
-============================================================
+------------------------------------------------------------
 
 - cd cpplibs/foreground_estimation_code
 g++ -o ForegroundSegmentation main.cpp input_preprocessor.cpp -O2 -fopenmp -I/usr/include/opencv -I/usr/include/opencv -L/usr/lib64 -L/usr/lib -larmadillo -lopencv_core -lopencv_highgui -lopencv_imgproc
