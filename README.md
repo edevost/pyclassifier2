@@ -12,27 +12,34 @@ This sofware consist of two main python components
 
 and two cpp libraries
 
-* Python installation
+- background_estimation_code
+- foreground_detection_code
 
-# Documenting installation from fresh manjaro linux installation.
-# Date of system installation : <2015-06-25 Thu>
+Python installation
+====================
+Documenting installation from fresh manjaro linux installation.
+Date of system installation : <2015-06-25 Thu>
 
-** Needed libraries
-*** Open CV
+================
+Needed libraries
+================
+- Open CV
 sudo pacman -Sy opencv
-*** python-pyexiftool
+- python-pyexiftool
 yaourt python-pyexiftool
-*** python-pandas
+- python-pandas
 sudo pacman -Sy python2-pandas
-*** python-matplotlib
+- python-matplotlib
 sudo pacman -Sy python2-matplotlib
-*** python2-xlrd
+- python2-xlrd
 sudo pacman -Sy python2-xlrd
-*** python2-scipy
+- python2-scipy
 sudo pacman -Sy python2-scipy
 
-* CPP libraries for bg estimation and foreground segmentation
-** Needed libraries :
+CPP libraries for bg estimation and foreground segmentation
+============================================================
+
+Needed libraries :
 *** armadillo
 yaourt armadillo
 ** To compile on manjaro/archlinux
