@@ -41,8 +41,8 @@ sudo pacman -Sy python2-xlrd
 
 sudo pacman -Sy python2-scipy
 
-CPP libraries for bg estimation and foreground segmentation
-============================================================
+CPP libraries installation
+===========================
 
 Needed libraries
 ----------------
