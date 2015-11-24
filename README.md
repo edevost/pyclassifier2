@@ -16,9 +16,7 @@ and two cpp libraries
 
 Python installation
 ====================
-Documenting installation from fresh manjaro linux installation.
-
-Date of system installation : <2015-06-25 Thu>
+Documenting installation on Manjaro linux.
 
 Needed libraries
 -----------------
