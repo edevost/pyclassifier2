@@ -1,3 +1,6 @@
+Deprecated
+==========
+
 <aside class="warning">
 This poject is no longer maintained.
 See [FoxMask](https://github.com/edevost/foxmask) for the
