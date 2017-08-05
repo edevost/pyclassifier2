@@ -1,6 +1,8 @@
+<aside class="warning">
 This poject is no longer maintained.
 See [FoxMask](https://github.com/edevost/foxmask) for the
 updated and actively developed version.
+</aside>
 
 pyclassifier2
 ==============
